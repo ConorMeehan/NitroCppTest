@@ -11,14 +11,20 @@ To build the program you will need cmake > 3.1. The tests build as a separate ap
 
 ## Linux/Cygwin
 On linux/cygwin, navigate to the build directory and type the following:
+
+```
 	cmake ..
 	make
     ./NitroCppTest_Tests
 	./NitroCppTest_Main <inputFile>
+```
 
 ## Windows	
 On windows, you can use the cmake gui or navigate to the VisualStudio folder and type:
+
+```
 	cmake .. -G "Visual Studio 15 2017"
+```
 
 Then open the generated visual studio project and build. You can then run both the tests and main applications by selecting the appropriate start-up application.
 
